@@ -4,6 +4,12 @@ _An entry for the Postman API Hackathon_
 
 ---
 
+## Setup
+
+Add keys.py to ease/ease/ 
+
+---
+
 ## The Problem
 
 This problem was derived from our personal experiences at BITS Pilani. Whenever we wanted to play any sport at our campus' courts, we found that the courts were full most of the time and there was no method of verifying the occupancy of said court. The problem was further complicated when we required teammates or opponents for team games, but could not find any players that were free at the same time. Trying a new sport was extremely challenging as well, since we had no way to learn through experience due to lack of time on the court.
