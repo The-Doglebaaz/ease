@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# ease
-=======
 # **Ease.**
 
 _An entry for the Postman API Hackathon_
