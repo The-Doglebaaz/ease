@@ -26,6 +26,10 @@ Ease is the easy way to take sports to the next level.
 
 ---
 
+
+
+---
+
 ## Team
  
 1. Kartike Chopra
