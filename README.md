@@ -1,4 +1,4 @@
-#**Ease.**
+# **Ease.**
 
 _An entry for the Postman API Hackathon_
 
@@ -8,7 +8,7 @@ _An entry for the Postman API Hackathon_
 
 ---
 
-##Team
+## Team
  
 1. Kartike Chopra
 2. Maanas Singh
