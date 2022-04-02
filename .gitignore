@@ -127,6 +127,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-#Django secret key
-.ease/ease/keys.py
