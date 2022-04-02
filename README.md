@@ -16,6 +16,16 @@ Ease is the easy way to take sports to the next level.
 
 ---
 
+## Our Technology
+
+-Postman
+-Git and GitHub
+-PostgreSQL
+-React
+-Django
+
+---
+
 ## Team
  
 1. Kartike Chopra
