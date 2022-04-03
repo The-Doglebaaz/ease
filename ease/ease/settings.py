@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-SITE_ID = 1
+SITE_ID = 2
 
 ROOT_URLCONF = 'ease.urls'
 
@@ -145,7 +145,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SITE_ID = 1
+LOGIN_REDIRECT_URL = '/'
+
 
 # Provider specific settings
 SOCIALACCOUNT_PROVIDERS = {
@@ -160,8 +161,8 @@ SOCIALACCOUNT_PROVIDERS = {
         ],
 
         'APP': {
-            'client_id': 'http://127.0.0.1:8000/accounts/google/urls/callback',
-            'secret': 'http://127.0.0.1:8000/accounts/google/urls/callback',
+            'client_id': '474947664741-0td7aghajpi6nimcvla7ptajlh7v5ncf.apps.googleusercontent.com',
+            'secret': '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',
             'key': ''
         }
     }
