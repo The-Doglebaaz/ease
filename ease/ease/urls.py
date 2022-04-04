@@ -23,6 +23,6 @@ urlpatterns = [
     path('user/', include('users.urls')),
     path('accounts/', include('allauth.urls')),
 
-    path('', TemplateView.as_view(template_name="users/home.html"))
+    path('', TemplateView.as_view(template_name="index.html"))
     # change the template name, it is set to a testing file to test auth
 ]
