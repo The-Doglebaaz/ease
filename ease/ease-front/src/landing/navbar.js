@@ -41,7 +41,7 @@ const ResponsiveAppBar = () => {
             position="static"
             className="navbar"
             elevation={0}
-            sx={{ bgcolor: 'white', color: 'black' }}
+            sx={{ bgcolor: '#f4f7ff', color: 'black' }}
         >
             <Container maxWidth="xl">
                 <Toolbar disableGutters>

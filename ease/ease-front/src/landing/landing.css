@@ -1,12 +1,80 @@
+body{
+    background-image: url(../assets/clouds.png), url(../assets/chart.png);
+    background-color: #f4f7ff;
+    background-position: left bottom, 50% -120%;
+    background-repeat: repeat, no-repeat;    
+}
+
+.title{
+    position: absolute;
+    left: 42.5%;
+    top: 35%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    /* make text non selectable */
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.title div{
+    color: #bee53f;
+    font-size: 6vw;
+    width: fit-content;
+}
+
+
 .button-text {
     text-transform: none;
 }
 
+/* navbar */
 .burger-img {
-    margin-left: -5.5vw;
+    margin-left: -2.6vw;
 }
 
-/* .MuiList-root {
-    height: 100vh;
-    width: 100vw;
-} */
+@media (max-width:780px) {
+    .burger-img {
+        margin-left: -3vw;
+    }
+}
+
+@media (max-width:700px) {
+    .burger-img {
+        margin-left: -3.4vw;
+    }
+}
+
+@media (max-width:610px) {
+    .burger-img {
+        margin-left: -3.8vw;
+    }
+}
+
+@media(max-width:580px){
+    .burger-img {
+        margin-left: -4vw;
+    }
+}
+
+@media (max-width:545px) {
+    .burger-img {
+        margin-left: -4.2vw;
+    }
+}
+
+@media (max-width:500px) {
+    .burger-img {
+        margin-left: -4.6vw;
+    }
+    .title{
+        position: absolute;
+        left: 40%;
+        top: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+}
