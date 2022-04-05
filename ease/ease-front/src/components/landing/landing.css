@@ -54,6 +54,7 @@ body{
     margin-left: 1vw;
     text-align: center;
     font-family: 'Nunito', sans-serif;
+    min-width: 70px;
 }
 
 .login-btn:hover{
