@@ -27,7 +27,7 @@ SECRET_KEY = keys.SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['165.232.183.89','ease.social']
+ALLOWED_HOSTS = ['localhost','165.232.183.89','ease.social']
 
 
 # Application definition
