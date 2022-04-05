@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
 body{
-    background-image: url(../assets/clouds.png), url(../assets/chart.png);
+    background-image: url(../../assets/clouds.png), url(../../assets/chart.png);
     background-color: #f4f7ff;
     background-position: left bottom, 50% -120%;
     background-repeat: repeat, no-repeat;    
@@ -29,6 +31,33 @@ body{
 
 .button-text {
     text-transform: none;
+}
+
+.login-btn{
+    width: 10vw;
+    border: none;
+    color: black;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 1vw;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.login-btn:hover{
+    background-color: #bee53f;
 }
 
 /* navbar */
