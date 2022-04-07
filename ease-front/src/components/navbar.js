@@ -14,6 +14,8 @@ import MenuItem from '@mui/material/MenuItem';
 
 import './landing/landing.css';
 
+import easeLogo from '../assets/ease.png';
+
 const pages = ['Home', 'Blog', 'Features', 'Pricing', 'Documentation'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -55,7 +57,7 @@ const ResponsiveAppBar = () => {
                             color: 'black',
                         }}
                     >
-                        LOGO
+                        <img src={easeLogo} alt="" className="ease-logo" />
                     </Typography>
 
                     <Box
@@ -112,7 +114,7 @@ const ResponsiveAppBar = () => {
                             display: { xs: 'flex', md: 'none' },
                         }}
                     >
-                        LOGO
+                        <img src="" alt="" />
                     </Typography>
                     <Box
                         sx={{
