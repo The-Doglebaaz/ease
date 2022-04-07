@@ -58,7 +58,11 @@ body{
 }
 
 .login-btn:hover{
-    background-color: #bee53f;
+    background-color: #ccef56;
+}
+
+.login-btn:active{
+    background-color: #a7cf24;
 }
 
 /* navbar */

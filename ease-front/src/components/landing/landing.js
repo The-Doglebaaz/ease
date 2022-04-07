@@ -8,7 +8,11 @@ const Landing = () => {
             <div className="title">
                 <div>ease.</div>
                 <p>sports made easy.</p>
-                <button className="login-btn">GO &#8594;</button>
+                <form method="get" action="/dash">
+                    <button className="login-btn" type="submit">
+                        GO &#8594;
+                    </button>
+                </form>
             </div>
         </div>
     );
