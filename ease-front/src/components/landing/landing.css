@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
 body{
-    background-image: url(../../assets/clouds.png), url(../../assets/chart.png);
+    background-image: url(../../assets/ease-background.png);
     background-color: #f4f7ff;
-    background-position: left bottom, 50% -120%;
-    background-repeat: repeat, no-repeat; 
-    position: fixed;   
+    background-position: 50% 30%;
+    background-repeat: repeat; 
+    /* position: fixed;    */
 }
 
 .title{
