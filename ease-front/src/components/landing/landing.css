@@ -4,7 +4,8 @@ body{
     background-image: url(../../assets/clouds.png), url(../../assets/chart.png);
     background-color: #f4f7ff;
     background-position: left bottom, 50% -120%;
-    background-repeat: repeat, no-repeat;    
+    background-repeat: repeat, no-repeat; 
+    position: fixed;   
 }
 
 .title{
