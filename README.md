@@ -6,7 +6,8 @@ _An entry for the Postman API Hackathon_
 
 ## Setup
 
-Add keys.py to ease/ease/ 
+Backend : Add keys.py to ease/ease/
+Front-end : run 'npm i' and 'npm install firebase' in ease/ease-front
 
 ---
 
@@ -29,6 +30,8 @@ Ease is the easy way to take sports to the next level.
 * PostgreSQL
 * React
 * Django
+* Firebase Auth
+* Heroku hosting
 
 ---
 
