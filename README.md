@@ -32,7 +32,9 @@ Ease is the easy way to take sports to the next level.
 * React
 * Django
 * Firebase Auth
-* Heroku hosting
+* Digital Ocean
+* nginx
+* Heroku
 
 ---
 
