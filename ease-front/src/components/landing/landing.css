@@ -46,12 +46,12 @@ body{
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     transition-duration: 0.4s;
     cursor: pointer;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
-    margin-left: 1vw;
+    margin-left: -1vw;
     text-align: center;
     font-family: 'Nunito', sans-serif;
     min-width: 70px;
@@ -78,6 +78,9 @@ body{
 @media (max-width:780px) {
     .burger-img {
         margin-left: -3vw;
+    }
+    .login-btn{
+        margin-left: -5vw;
     }
 }
 
@@ -115,5 +118,11 @@ body{
         top: 40%;
         display: flex;
         flex-direction: column;
+    }
+    .login-btn{
+        margin-left: -30px;
+    }
+    .title p{
+        margin-left: -30px;
     }
 }
