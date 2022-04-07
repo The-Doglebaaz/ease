@@ -1,11 +1,3 @@
-import {
-    BrowserRouter,
-    BrowserRouter as Router,
-    Route,
-    Routes,
-    Switch,
-} from 'react-router-dom';
-
 import Landing from './components/landing/landing.js';
 // import Home from './components/home/home.js';
 import './App.css';
