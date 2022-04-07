@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './components/landing/landing.js';
 import Home from './components/home/home.js';
 import Login from './components/login/login.js';
+import Error from './components/error/error.js';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
                     <Route path="/" element={<Landing />} />
                     <Route path="/dash" element={<Home />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="*" element={<Error />} />
                 </Routes>
             </BrowserRouter>
         </div>
